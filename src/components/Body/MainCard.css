@@ -1,0 +1,36 @@
+/* src/components/Body/MainCard.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .weather-card h1 {
+    
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .temperature {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .details {
+    font-size: 1.2rem;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
