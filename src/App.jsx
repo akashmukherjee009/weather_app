@@ -37,7 +37,7 @@ const App = () => {
     // fetchCityTemps();
   }, [city, apiKey]);
   const searchHandler=(a)=>{
-    console.log(a);
+    // console.log(a);
     setCity(a)
   }
   return (
